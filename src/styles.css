@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  width: 400px;
+}
+input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  outline: none;
+}
+.suggestion_list {
+  border: 1px solid silver;
+  max-height: 300px;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.show_list {
+  display: block;
+}
